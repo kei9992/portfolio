@@ -1,0 +1,56 @@
+.article1 {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+.topImg img {
+    object-position: 0% 43%;
+    object-fit: cover;
+}
+#form {
+    width: 80%;
+    margin: 0 auto;
+}
+textarea {
+    height: 250px;
+    max-height: 250px;
+}
+.wrap_works{
+    display: flex;
+    margin: 30px;
+}
+.wrap_works > ul{
+   display: flex;
+   overflow-x: auto;
+   width: 80%;
+   margin: 0 auto;
+   flex-wrap: wrap;
+   
+}
+.wrap_works > ul > li {
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px 10px 20px 0; 
+    flex-shrink: unset;
+   
+}
+/* ------about */
+.wrap{
+    margin: 0 auto;
+    width: 65%;
+}
+/* --works */
+.works_box {
+    width: 90%;
+}
+.works_list {
+
+    align-items: center;
+}
+
+/* ----contact */
+.wrap_contact {
+    /* margin: 0 50px 0 50px; */
+    width: 80%;
+    margin: auto;
+}
