@@ -39,6 +39,15 @@ textarea {
     margin: 0 auto;
     width: 65%;
 }
+dt {
+    width: 30%;
+    margin-top: 20px;
+}
+
+dd {
+    width: 70%;
+    margin-top: 20px;
+}
 /* --works */
 .works_box {
     width: 90%;
